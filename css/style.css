@@ -1,0 +1,91 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+
+
+#container {
+    height: 200vh;
+    background-color: #333;
+}
+
+#container .hidden {
+    display: none;
+    height: 300px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 300px;
+    
+}
+
+
+
+
+
+
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    40% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+
+    70% {
+        opacity: 1;
+        transform: translateX(0%);
+        transition-duration: 6s;
+    }
+
+    70% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+
+
+
+
+
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    
+}
+
+#container .active {
+    display: block;
+    animation-name: animate;
+    animation-duration: 6s;
+    /* transition: all 3ms ease-in-out; */
+    
+}
+
+
+.div-box-1 {
+    background-color: violet;
+}
+
+.div-box-2 {
+    background-color:cadetblue
+}
+
+.div-box-3 {
+    background-color: chocolate;
+}
