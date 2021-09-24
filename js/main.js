@@ -19,7 +19,7 @@ function slide(){
         if(index >= box_lists.length){
             index = 0;
         }
-    }, 5000);
+    }, 2000);
 }
     
 slide()

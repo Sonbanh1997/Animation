@@ -33,7 +33,7 @@
 @keyframes animate {
     0%{
         opacity: 0;
-        transform: translateX(100%);
+        transform: translateX(60%);
     }
 
     40% {
@@ -72,7 +72,7 @@
 #container .active {
     display: block;
     animation-name: animate;
-    animation-duration: 6s;
+    animation-duration: 2.5s;
     /* transition: all 3ms ease-in-out; */
     
 }
